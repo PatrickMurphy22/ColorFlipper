@@ -1,1 +1,16 @@
-
+.mainContainer{
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#btn{
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: x-large;
+}
+#btn:hover{
+    color: white;
+    background-color: black;
+}
